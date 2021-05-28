@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">VISION ISTANBUL</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="./video/instabul.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Explore ISTANBUL</h2> 
+      <h3>With  Us Today</h3>
+      <p>Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here. In the Sultanahmet district, the open-air, Roman-era Hippodrome was for centuries the site of chariot races, and Egyptian obelisks also remain. The iconic Byzantine Hagia Sophia features a soaring 6th-century dome and rare Christian mosaics</p>
+      
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="lifestyle.html">LIFESTYLE</a></li>
+      <li><a href="events.html">EVENTS</a></li>
+      <li><a href="connectwithus.html">CONNECT WITH US</a></li>
+      
+    </ul>
+  </div>
+<script >
+  const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})</script>
+  
+
+</body>
+</html>
